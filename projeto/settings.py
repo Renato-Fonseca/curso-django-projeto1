@@ -56,7 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            f'{BASE_DIR}/outra_pasta',
+            f'{BASE_DIR}/mais_uma_pasta',
             f'{BASE_DIR}/recipes/templates-temp'
         ],
         'APP_DIRS': True,
