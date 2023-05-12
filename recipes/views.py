@@ -1,8 +1,28 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-
-# Create your views here.
+from utils.recipes.factory import make_recipe
+from .models import Recipe, Category
 
 
 def home(request):
-    return render(request, 'recipes/pages/home.html', {'nome': 'Mateus Chaves', 'soma': 2+3}, status=404)
+    recipes = Recipe.objects.all().order_by('-id')
+    return render(request, 'recipes/pages/home.html', context={
+         'recipes': recipes,
+         'is_detail_page': False,
+     })
+
+
+def recipe(request, id):
+    recipes = Recipe.objects.all()
+    recipe = recipes[id-1]
+    return render(request, 'recipes/pages/recipe-view.html', {
+        'recipe': recipe,
+        'is_detail_page': True
+        })
+
+
+def category(request, id):
+    categories = Category.objects.all()
+    category = categories[id-1]
+    return render(request, 'recipes/pages/category-view.html', {
+        'category': category
+        })

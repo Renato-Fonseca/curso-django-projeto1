@@ -56,8 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            f'{BASE_DIR}/mais_uma_pasta',
-            f'{BASE_DIR}/recipes/templates-temp'
+            f'{BASE_DIR}/base_templates'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -118,7 +117,12 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.0/howto/static-files/
-
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    f'{BASE_DIR}/static',
+]
+
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = f'{BASE_DIR}/media/'
