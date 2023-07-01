@@ -6,8 +6,7 @@
 {% block content %}
 
 
-
-<div class="main-content main-content-list container">
+<div class="main-content main-content-list container" id="testing" data-name="Mateus" data-age="15">
 
     {% for recipe in recipes %}
     {% include 'recipes/partials/recipe.html' %}
@@ -17,9 +16,13 @@
 
 </div>
 
+<div id="my_div" to_begin class="selected" style="height: 200px; width: 200px;">exemplo</div>
+
+
+
 <script>
-    let imgs = document.getElementsByTagName('img')
-    let img = imgs[0]
+    let div = document.querySelector('[to-begin]')
+
 </script>
 
 {% endblock content %}

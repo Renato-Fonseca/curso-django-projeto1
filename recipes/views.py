@@ -1,7 +1,10 @@
-from django.shortcuts import render, get_list_or_404, get_object_or_404
-from utils.recipes.factory import make_recipe
-from .models import Recipe, Category
 from django.http import Http404, HttpResponse
+from django.shortcuts import get_list_or_404, get_object_or_404, render
+
+from utils.recipes.factory import make_recipe
+
+from .models import Category, Recipe
+
 
 def home(request):
     recipes = Recipe.objects.all().order_by('-id').filter(is_published=True)
