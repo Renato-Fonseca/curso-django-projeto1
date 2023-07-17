@@ -11,18 +11,29 @@
     {% for recipe in recipes %}
     {% include 'recipes/partials/recipe.html' %}
     {% empty %}
-    <div id='no-recipes'>Ops, parece que ninguém postou receitas ainda, tenha a honra de ser o primeiro!</div>
+    <div id="no-recipes">Ops, parece que ninguém postou receitas ainda, tenha a honra de ser o primeiro!</div>
     {% endfor %}
 
 </div>
 
-<div id="my_div" to_begin class="selected" style="height: 200px; width: 200px;">exemplo</div>
 
+<a example href="/">um link</a>
 
 
 <script>
-    let div = document.querySelector('[to-begin]')
-
+    let item = document.querySelector('[example]')
+    item.onmousemove = (event) => {
+        let item = event.target
+        item.style.cursor = 'move'
+        item.style.position = 'absolute'
+        item.style.top = `${0}px`
+        item.style.left = `${0}px`
+        if (event.buttons) {
+            item.style.backgroundColor = 'green'
+            item.style.top = `${event.clientY - (item.clientHeight / 2)}px`
+            item.style.left = `${event.clientX - (item.clientWidth / 2)}px`
+        }
+    }
 </script>
 
 {% endblock content %}
