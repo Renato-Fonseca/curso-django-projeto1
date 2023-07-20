@@ -1,0 +1,319 @@
+22/09: fiz minha primeira revisão de reduce e aprendi sobre o http em django  
+
+23/09: fiz minha primeira revisão sobre o protocolo HTTP(não tem necessidade de revisar mais vezes porque é apenas teoria)  e aprendi sobre instancia 
+única e instancia nova em JavaScript 
+
+24/09: fiz minha primeira revisão de instancia unica e instancia nova em node no estudo de JavaScript e aprendi sobre apps em Django
+
+25/09: fiz minha primeira revisão de apps em django (não tem necessidade de revisar mais vezes porque é apenas teoria), aprendi sobre o global 
+em JavaScript e também  o this em JavaScript 
+
+27/09: fiz minha primeira revisão sobre o global em JavaScript e também o this em JavaScript 
+
+28/09: aprendi um pouco sobre renderização de templates em Django
+
+01/10: aprendi sobre como passar parâmetros entre módulos em node(JavaScript)
+
+02/10: fiz minha segunda revisão de reduce e continuei minha lógica do exercicio do dia anterior
+
+03/10: segundas revisões de instancia única e nova, e global
+
+04/10: revisão do this e continuei um pouco mais na aula de templates
+
+05/10: fiz um pouco da aula de deps e scripts em JavaScript
+
+06/10: fiz quase tudo da aula de templates e renderização de HTML no Django
+
+07/10: terminei aula de deps e scripts e aprendi o appendfile sozinho(não precisa revisar, só fiz isso pra ver se conseguia aprender algo sozinho só com a documentação)
+
+08/10: aprendi um pouco sobre ler arquivo em JavaScript e terminei aula de templates e renderização de HTML no Django
+
+09/10: fiz aula da função render em Django e dei uma olhada no projeto recipes 
+
+10/10: Quase terminei a aula de ler arquivos com node em JavaScript(aprendi a usar o ReadFileSync e ReadFile)
+
+11/10: Revisei ReadFileSync e ReadFile em JavaScript e aprendi a usar o font-awesome no projeto recipes de Django(não precisa revisar porque não é django, é apenas um site útil)
+
+12/10: Aprendi a ler pastas em node(usando readdir e readdirSync) e também aprendi a escrever arquivos em node(usando writeFile e writeFileSync)
+
+14/10: revisei readdir, readdirSync, writeFile e writeFileSync em JavaScript, e começei a arrumar meu HTML pro projeto recipes em Django
+
+15/10: revisei deps e scripts em JavaScript e a aula de renderização de templates em Django, e decidi que vou terminar a seção de node(aprendendo um pouco de Express.js)
+
+16/10: continuei no projeto recipes, e decidi que vou apenas copiar e colar o HTML e CSS, porque não vale apena ficar perdendo tempo com isso, eu ainda não aprendi flexbox e grid layout então tudo que eu for fazer eu vou apenas estar copiando o que eu vejo, assim não adianta!
+
+17/10: aprendi um pouco do padrão middleware, e começei a fazer meu próprio exemplo com ele(ainda não acabei), e descobri o eval
+
+20/10: revisei a aula de templates e renderização de HTML em Django e revisei aula do render também em Django
+
+23/10: revisei toda a aula de ler arquivos em node(readFileSync, readFile, readdirSync, readdir) e escrever arquivos em node(writeFileSync, writeFile) em JavaScript
+
+25/10: começei outro exemplo em JavaScript na aula de padrão middleware parte 2
+
+26/10: aprendi o que são arquivos estáticos e CDNs(a parte teórica, não precisa revisar) no estudo de Django
+
+27/10: começei um exemplo cabuloso pra usar o eval em JavaScript, continuar amanhã como se fosse uma revisão
+
+28/10: terminei meu exemplo com o eval(não precisa revisar) em JavaScript e aprendi a usar arquivos estáticos nos meus templates em Django
+
+29/10: quase acabei meu exemplo de padrão middleware(vou adicionar mais um middleware e ver o que aconteçe se trocar os 3 de ordem) e revisei como usar arquivos estáticos nos meus templates em Django
+
+31/10: revisei o reduce em JavaScript e começei a revisar(mas não acabei) as instâncias novas também em JavaScript, continuar as revisões amanhã
+
+01/11: revisei instancia única e instancia nova em JavaScript, também sobre apps em Django, e começei a revisar o global e o this em JavaScript(não acabei), CONTINUAR AMANHÃ
+
+02/11: revisei o global em JavaScript(no node) e os valores do this em node em diferentes situações, revisar como passar parâmetros entre módulos em node. Amanhã e ver se tem mais alguma coisa
+
+04/11: revisei como passar parâmetros entre módulos em node
+
+09/11: revisei deps e scripts, AMANHÃ REVISAR A AULA DE TEMPLATES E RENDERIZAÇÃO DE HTML E A DA FUNÇÃO RENDER EM DJANGO, DAÍ SEGUIR EM FRENTE NOS ESTUDOS
+
+10/11: revisei a aula de templates e renderização de HTML e a da função render em Django, e aprendi a criar mais diretórios de static files na aula de STATIC_URL e  STATICFILES_DIRS também em Django
+ 
+11/11: revisei a aula de STATIC_URL e STATICFILES_DIRS em Django, e começei o exemplo de padrão middleware de novo(fazia muito tempo que não mexia com o outro) em JavaScript, continuar com ele no próximo estudo de JavaScript
+
+12/11: aprendi STATIC_ROOT e collectstatic, e também fiz o teste 7 de arquivos estáticos em Django. continuei meu exemplo de padrão middleware em JavaScript(falta fazer a função exec).
+
+13/11: revisei STATIC_ROOT e collectstatic em Django, e terminei meu exemplo com padrão middleware em JavaScript.
+
+14/11: aprendi a passar mais um parâmetro para as funções view(aula 42. Uma nova URL para uma nova View - sobre URLs no Django) em Django, continuar nessa aula no próximo estudo de Django. Deixei meu exemplo com padrão middleware muito mais simples em JavaScript, encerrando esse assunto.
+
+15/11: revisei como passar mais um parâmetro para as funções view(aula 42. Uma nova URL para uma nova View - sobre URLs no Django) em Django. Instalei o Postman e entendi o conceito endereço IP e porta no estudo de JavaScript, continuar na aula 1 da API com Express no próximo estudo de JavaScript.
+
+16/11: acabei a aula "42. Uma nova URL para uma nova View - sobre URLs", aprendendo a passar um parâmetro de um determinado tipo à função view, e começei na aula "44. Herança em templates e template blocks" no estudo de Django
+
+17/11: iniciei o projeto com Express(na aula 168) no estudo de JavaScript
+
+18/11: aprendi a usar os block(aulas 44 e 45) em Django
+
+19/11: terminei a primeira aula da API com express(aula 168) em JavaScript
+
+22/11: revisei STATIC_URL, STATICFILES_DIRS, STATIC_ROOT, collectstatic, a aula de como passar mais de um parâmetro para uma função view(aula 42) em Django
+
+23/11: revisei padrão middleware, fs.readFileSync e o fs.readFile em node no estudo de JavaScript, continuar as terceiras revisões amanhã
+
+24/11: revisei fs.readdirSync, fs.readdir, fs.writeFileSync, fs.writeFile em node, começar aula "46. Injetando dados na lista da view Home" em django amanhã
+
+25/11: fiz uma parte da aula "46. Injetando dados na lista da view Home" em Django.
+
+27/11: fiz uma parte da segunda aula da API com express(aula 169) em JavaScript.
+
+30/11: fiz a segunda revisão dos blocks em Django.
+
+01/12: quase terminei a aula "46. Injetando dados na lista da view Home" em Django, aprendendo nela a usar o for em Django(acho que não precisa revisar porque é um comando muito básico e simples, além de ser idêntico ao for do Python).
+
+02/12: quase terminei a segunda aula da API com Express(aula 169) no estudo de JavaScript
+
+04/12: terminei a aula "46. Injetando dados na lista da view Home", e agora estou tentando deixar todas as caixas de receitas do mesmo tamanho usando o overflow, tudo no estudo de Django.
+
+05/12: quase terminei a terceira aula da API com Express(aula 171) no estudo de JavaScript
+
+06/12: consegui deixar todos os cards do mesmo tamanho no projeto recipes de Django
+
+07/12: terminei a API com Express no estudo de JavaScript
+
+08/12: adicionei as imagens ao projeto recipes e fiz todas as alterações necessárias pra deixar todos os cards do mesmo tamanho com imagens no estudo de Django
+
+09/12: aprendi a usar o módulo node-schedule do node e vi um pouco da última aula da seção de node no estudo de JavaScript.Em Django quase terminei a aula '48. Trabalhando nas diferenças entre detail page e list page', aprendendo a usar o if em Django, agora preciso arrumar a altura do card de receitas da página de detalhes e fazer algumas alterações no CSS dele
+
+12/12: fiz a aula "174. Process: Entrada e Saída Padrão", a última aula da seção de Node em JavaScript.
+
+13/12: arrumei a altura do card de receitas da página de detalhes e fiz algumas alterações no CSS dele em Django
+
+14/12: fiz a revisão das aulas 90, 91, 92 e 93 em JavaScript.
+
+15/12: fiz o teste 8 e começei a aula "49. Nome único nas URLs e app_name para Namespace"(ainda não terminei) em Django.
+
+16/12: revisei a aula 94 em JavaScript. fiz a aula "49. Nome único nas URLs e app_name para Namespace", aprendendo a usar o name nos paths, o app_name e a colocar urls em links, tudo em Django
+
+17/12: revisei as aulas 95, 96, 97 em JavaScript
+
+18/12: fiz um pouco da aula "51. Primeiro Django Model e seus atributos" em Django(só assisti ele fazendo, não coloquei a mão na massa).
+
+19/12: revisei as aulas 98, 99
+
+20/12: fiz a aula "51. Primeiro Django Model e seus atributos" por inteiro em Django.
+
+21/12: revisei as aulas 100, 101, 102, 103 em JavaScript.
+
+22/12: fiz metade da aula "52. makemigrations e migrate - Aplicando as migrações" em Django.
+
+23/12: revisei as aulas 104, 105, 106, 107, 108 em JavaScript
+
+24/12: fiz a aula "52. makemigrations e migrate - Aplicando as migrações" e iniciei "Teste 9: Sobre a criação de Models." em Django.
+
+26/12: revisei as aulas 109, 110 em JavaScript.
+
+27/12: completei o "Teste 9: Sobre a criação de Models." e fiz boa parte da aula "54. Registrando category na admin do Django" em Django.
+
+05/01: revisei a aula 111 em JavaScript(não tinha entendido quando fiz a primeira vez, então demorei bastante nessa aula)
+
+08/01: fiz mais uma parte da aula "54. Registrando category na admin do Django"(entendi o ModelAdmin) em Django.
+
+09/01: revisei as aulas 112, 114, 115 em JavaScript.
+
+11/01: terminei a aula "54. Registrando category na admin do Django" e começei a "55. Adicionando Recipes na admin do Django" em Django.
+
+14/01: revisei as aulas 116, 117, 118 em JavaScript.
+
+16/01: continuei na aula "55. Adicionando Recipes na admin do Django", começando meus estudos nos decorators do Python, tudo no meu estudo de Django.
+
+24/01: revisei um pouco da aula "119. Getters/Setters" em JavaScript
+
+25/01: continuei na aula "55. Adicionando Recipes na admin do Django", mas esqueci de continuar os estudos nos decorators do Python, preciso continuar isso no próximo estudo.
+
+26/01: terminei de revisar a aula "119. Getters/Setters" e revisei um pouco da aula "120. Funções Importantes de Objeto" em JavaScript.
+
+06/02: continuei na aula "55. Adicionando Recipes na admin do Django" em Django, mas esqueci de continuar os estudos nos decorators do Python, preciso continuar isso no próximo estudo.
+ 
+07/02: revisei um pouco da aula "120. Funções Importantes de Objeto" em JavaScript.
+
+10/02: continuei na aula "55. Adicionando Recipes na admin do Django" e aprendi a usar decorators em Python, isso no estudo de Django.
+
+11/02: revisei as aulas 120, 121 em JavaScript.
+
+12/02: quase terminei a aula "55. Adicionando Recipes na admin do Django" em Django.
+
+19/02: revisei as aulas 122, 123, 124 em JavaScript.
+
+20/02: terminei a aula "55. Adicionando Recipes na admin do Django" e iniciei a aula "56. Conhecendo o Django Shell e manipulando QuerySets com ele" em Django.
+
+21/02: revisei a aula 125 em JavaScript.
+
+22/02: começei a revisar a aula 126 em JavaScript.
+
+25/02: dei uma breve iniciada na aula "56. Conhecendo o Django Shell e manipulando QuerySets com ele" em Django, mas foi bem pouco, preciso estudar Django amanhã.
+
+26/02: estudei um pouquinho de Django de novo.
+
+28/02: revisei as aulas 126, 127 em JavaScript.
+
+08/03: fiz mais um pouco da aula "56. Conhecendo o Django Shell e manipulando QuerySets com ele" em Django.
+
+12/03: revisei a aula 128 em JavaScript.
+
+14/03: terminei a aula "56. Conhecendo o Django Shell e manipulando QuerySets com ele", e começei a assistir(ainda não botei a mão na massa) a aula "58. Usando o model Recipe real (com QuerySet) na view home" em Django.
+
+19/03: revisei as aulas 129, 130 em JavaScript.
+
+21/03: fiz uma parte da aula "58. Usando o model Recipe real (com QuerySet) na view home" em Django, preciso resolver a questão "de onde" saiu o first_name e last_name das minhas receitas.
+
+31/03: revisei as aulas 178 em JavaScript.
+
+01/04: revisei as aulas 179, 180 em JavaScript.
+
+02/04: fiz mais uma parte da aula "58. Usando o model Recipe real (com QuerySet) na view home" em Django.
+
+06/04: revisei as aulas 181, 182, 183, e um pouco da 184 em JavaScript.
+
+15/04: fiz mais uma parte da aula "58. Usando o model Recipe real (com QuerySet) na view home" em Django.
+
+23/04: revisei um pouco de Promises em JavaScript;
+
+12/05: terminei a aula "58. Usando o model Recipe real (com QuerySet) na view home" em Django.
+
+13/05: fiz o desafio de promises no JavaScript.
+
+15/05: terminei a aula "59. Ocultando receitas que não estão publicadas (filter para is_published)" e "60. Corrigindo category com blank True e default None" em Django.
+
+17/05: revisei async e await em JavaScript, terminando, assim, a seção de ESNext.
+
+19/05: terminei a aula "61. Corrigindo autor nulo" e "Teste 11: Django User Model", e metade da aula "62. Mostrando erro 404 Not Found para páginas que não existem" em Django.
+
+20/05: começei minha jornada nas seções de Web em JavaScript.
+
+21/05: terminei a aula "199. Introdução à Web", e treinei boa parte do conteúdo da aula "279. Selecionando Elementos #01"(veja a aula porque ele passa uns negócios interessantes que ainda não fiz) em JavaScript.
+
+25/05: estudei 30 minutos de Django, então vou continuar nele amanhã porque foi muito pouco.
+
+27/05: terminei a aula "62. Mostrando erro 404 Not Found para páginas que não existem" em Django.
+
+28/05: terminei a aula "279. Selecionando Elementos #01", e fiz boa parte da aula "200. Protocolo HTTP" em JavaScript.
+
+02/06: terminei a aula "63. Usando o shortcut get_list_or_404 (atalho)" e "64. Mostrando a página de detalhes da receita" em Django.
+
+03/06: terminei a aula "280. Selecionando Elementos #02", também a aula "200. Protocolo HTTP", e fiz um pouco da aula ""202. Servidor Web" em JavaScript.
+
+04/06: terminei a aula "65. Ajustando o css do modo de preparo" em Django.
+
+06/06: terminei a aula "202. Servidor Web" e "203. Client Side vs Server Side" em JavaScript.
+
+07/06: terminei a aula "66. Usando get_object_or_404 ao invés de fazer a consulta na mão" e fiz um pouco da "67. Usar get_list_or_404 na home ou não?" em Django.
+
+08/06: fiz boa parte da aula "281. Selecionando Elementos #03" em JavaScript.
+
+09/06: prossegui na aula "67. Usar get_list_or_404 na home ou não?" em Django.
+
+10/06: terminei a aula "281. Selecionando Elementos #03" e vi a aula "282. Selecionando Elementos #04"(ainda não botei a mão na massa) em JavaScript.
+
+11/06: terminei as aulas "69. Renomeando um projeto Django inteiro", "70. Internacionalização, Time Zones e Tradução do Django para português - PT-BR", "71. Corrigindo erros de tipagem e linha longa no settings.py", e vi a aula "72. Iniciando com testes no Django com Pytest, Pytest-Django e Unittest"(só vi, ainda preciso botar a mão na massa) em Django.
+
+12/06: terminei a aula "282. Selecionando Elementos #04"(já botei a mão na massa) em JavaScript.
+
+13/06: dei prosseguimento à aula "72. Iniciando com testes no Django com Pytest, Pytest-Django e Unittest" em Django.
+
+14/06: estou quase terminando a aula "283. Acessando Atributos #01" em JavaScript.
+
+15/06: encontrei a solução para o problema dos testes em Django, mas é melhor eu continuar com Django amanhã porque foi só isso. 
+
+17/06: terminei a aula "74. Asserções (afirmações), Django Reverse URL e Pytest-Watch" e "75. Testando Django Reverse URL com argumentos args e kwargs" em Django.
+
+18/06: terminei as aulas "283. Acessando Atributos #01" e "284. Acessando Atributos #02" em JavaScript.
+
+20/06: terminei o teste "Teste 12: Sobre Django testing e typing" em Django.
+
+21/06: terminei as aulas "285. Acessando Atributos #03" e "286. Acessando Classes", e iniciei a aula "287. Modificando HTML #01" em JavaScript.
+
+24/06: fiz boa parte da aula "76. Usando resolve para entender qual view function está sendo usada" em Django.
+
+27/06: terminei a aula "287. Modificando HTML #01", e boa parte da aula "288. Modificando HTML #02" em JavaScript.
+
+29/06: termminei a aula "288. Modificando HTML #02" e iniciei a "289. Trabalhando c/ Eventos #01" em JavaScript.
+
+30/06: terminei a aula "76. Usando resolve para entender qual view function está sendo usada" e iniciei a "77. Separando os testes em um package chamado tests com __init__.py" em Django.
+
+01/07: terminei as aulas "77. Separando os testes em um package chamado tests com __init__.py", "78. Usando self.client do Django para simular o cliente nos testes", e a aula "79. Testando "No recipes found" quando receitas não existem" em Django.
+
+02/07: terminei a aula "289. Trabalhando c/ Eventos #01" em JavaScript.
+
+04/07: quase terminei a aula "80. Testando 404 Not Found quando receitas não existem" em Django.
+
+11/07: fiz boa parte da aula "290. Trabalhando c/ Eventos #02" em JavaScript.
+
+13/07: fiz quase toda a aula "81. Criando fixtures para um teste único (Recipe, Category e Author)" em Django.
+
+15/07: continuei na aula "290. Trabalhando c/ Eventos #02" em JavaScript.
+
+
+META MARÇO:
+
+Em JavaScript: 
+	
+	terminar revisão de objetos OK
+	terminar revisão de ESNext OK
+	terminar seção de conceitos sobre web
+
+Em Django:
+
+	chegar até a aula 75
+
+JAVASCRIPT: O QUE FAZER AGORA? aparentemente eu gravei mesmo o conteúdo das seções anteriores, e isso é bom! Mas mesmo assim vou fazer uma revisão rápida de todos os conteúdos das seções de função, objeto, e ESNext. revisões rápidas, de até 10 minutos cada conteúdo, como eu gravei este conteúdo vai ser muito mais rápido revisar. Eu não preciso ver a aula, é só testar se ainda lembro de cada conteúdo direto no Visual Studio Code. DEPOIS DISSO: fazer a seção que junta JavaScript, HTML e CSS
+
+
+ANTES DE PASSAR PRA SEÇÃO DE HTML,CSS, E JAVASCRIPT NO CURSO, FAÇA UMA GRANDE REVISÃO DOS CONTEÚDOS ESTUDOS ATÉ O MOMENTO(tirando node pq vc já está fazendo as revisões corretamente)
+
+PRÓXIMO PERIODO DE SEGUNDAS REVISÕES: ?(começando ???)
+
+PRÓXIMO PERIODO DE TERCEIRAS REVISÕES: 20/12(começando 10/11)
+
+PRÓXIMO PERIODO DE QUARTAS REVISÕES: 22/01/23
+
+REVISAR OS CONTEÚDOS EM DJANGO TAMBÉM, NÃO APENAS EM JAVASCRIPT, SE NÃO VOCÊ VAI ESQUECER DAS COISAS DE DJANGO
+
+DEPOIS QUE ACABAR A SEÇÃO DE NODE, FAZER O PROJETO DE HTML E CSS COM JAVASCRIPT DA SEÇÃO QUE INTEGRA AS 3 TECNOLOGIAS, E DAÍ SIM AVANÇAR PRA AJAX
+
+EM DJANGO, FAZER O PROJETO RECIPES DANDO "CTRL+C" E "CTRL+V", DAÍ QUANDO ACABAR FAZER O MÓDULO 4 DO CURSO DE HMTL E TAMBÉM APRENDER FLEXBOX E GRID LAYOUT NA SEÇÃO DE CSS DO CURSO DE JAVASCRIPT, E ENTÃO VOLTAR E FAZER O PROJETO RECIPES DO ZERO E SOZINHO, FAZENDO O HTML E TUDO!
+
+
+
+
