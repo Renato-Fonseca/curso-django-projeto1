@@ -35,7 +35,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+#lib/
 lib64/
 parts/
 sdist/
@@ -117,7 +117,7 @@ GitHub.sublime-settings
 __pycache__/
 *.pyc
 __localcode
-env
+#env
 .DS_Store
 local_settings.py
 _local_settings.py
