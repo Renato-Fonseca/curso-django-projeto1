@@ -35,7 +35,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-#lib/
+lib/
 lib64/
 parts/
 sdist/
@@ -77,8 +77,10 @@ celerybeat-schedule.*
 
 # Environments
 .env
+.venv
 env/
 ENV/
+venv/
 env.bak/
 venv.bak/
 
@@ -117,7 +119,8 @@ GitHub.sublime-settings
 __pycache__/
 *.pyc
 __localcode
-#env
+env
+venv
 .DS_Store
 local_settings.py
 _local_settings.py
