@@ -1,0 +1,7 @@
+pip # (upgrade)
+Django
+pytest
+pytest-django
+faker
+pillow
+mypy
