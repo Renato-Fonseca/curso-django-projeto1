@@ -284,6 +284,25 @@ em JavaScript e também  o this em JavaScript
 
 15/07: continuei na aula "290. Trabalhando c/ Eventos #02" em JavaScript.
 
+25/07: terminei a aula "81. Criando fixtures para um teste único (Recipe, Category e Author)" e começei na aula "82. Testando o context e content da response no template" em Django.
+
+26/07: terminei a aula "290. Trabalhando c/ Eventos #02" e começei a "291. Trabalhando c/ Eventos #03" em JavaScript.
+
+27/07: continuei na aula "82. Testando o context e content da response no template" em Django.
+
+28/07: terminei a aula "291. Trabalhando c/ Eventos #03" em JavaScript.
+
+29/07: terminei a aula "82. Testando o context e content da response no template" e começei ambas as aulas "83. Criando uma classe de base para os testes" e "84. Extraindo métodos para reutilização na classe de base dos" em Django.
+
+30/07: começei a aula "292. Trabalhando c/ Eventos #04" em JavaScript.
+
+REPELENTE TÁ FÁCIL!
+
+
+Abao em Tóquio
+
+Study Pomodoro
+
 
 META MARÇO:
 

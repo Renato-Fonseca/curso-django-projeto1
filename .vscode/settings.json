@@ -5,7 +5,7 @@
     "python.testing.unittestEnabled": false, // ms-python.python
     "python.testing.pytestEnabled": true,
     "python.testing.pytestArgs": [
-      "recipes"
+      "."
     ], // -x to bail
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
@@ -61,11 +61,11 @@
       "typescript": "typescriptreact"
     },
     "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        "./recipes",
-        "-p",
-        "test*.py"
+      "-v",
+      "-s",
+      "./recipes",
+      "-p",
+      "test_*.py"
     ],
     "python.formatting.provider": "none"
   }

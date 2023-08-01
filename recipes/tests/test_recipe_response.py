@@ -1,10 +1,11 @@
 from django.test import TestCase
 from django.urls import reverse
-
 from recipes.models import Category, Recipe, User
+from .test_recipe_base import Test_Base
 
 
-class Test_responses(TestCase):
+class Test_responses(Test_Base):
+
     def test_recipe_home_view_returns_status_200_OK(self):
         response = self.client.get(reverse('recipes:home'))
         self.assertEqual(response.status_code, 200)
@@ -22,34 +23,13 @@ class Test_responses(TestCase):
         self.assertTemplateUsed(response, 'recipes/pages/home.html')
 
     def test_recipe_home_template_shows_no_recipes_found_if_none_exist(self):
+        Recipe.objects.get(pk=1).delete() # era pra isso ter funcionado...
         response = self.client.get(reverse('recipes:home'))
         cont = response.content.decode('utf-8')
         self.assertIn('<div id="no-recipes">Ops, parece que ninguém postou receitas ainda, tenha a honra de ser o primeiro!</div>', cont)
 
-    # def test_recipe_home_template_loads_recipes(self):
-    #     category = Category.objects.create(name='Categoria')
-    #     category.full_clean()
-    #    category.save()
-    #    author = User.objects.create(
-    #      first_name='first name',
-    #      last_name='last name',
-    #       username='username',
-    #     password='1234'
-    #      email='username@email.com'
-    #      )  
-    # recipe = Recipe.objects.create(
-    #     category=category
-    #      author=author
-    #     title='titúlo'
-    #     description='Descrição'
-    #      slug='slug'
-    #      preparation_time=12
-    #      preparation_time_unit='minutos'
-    #      servings=8
-    #      servings_unit='pedaços'
-    #       preparation_steps='Passos para o preparo'
-    #       preparation_steps_is_html=False
-    #        is_published=True
-    #    )
-    #    assert 1 == 1
-        
+    def test_recipe_home_template_loads_recipes(self):
+        response = self.client.get(reverse('recipes:home'))
+
+        self.assertIn('<span class="main-logo-text">Recipes</span>', response.content.decode('utf-8'))
+        assert response.context['is_detail_page'] == False
