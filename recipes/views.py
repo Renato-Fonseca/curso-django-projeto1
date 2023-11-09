@@ -43,3 +43,12 @@ def category(request, category_id):
             "title": recipes[0].category.name,
         },
     )
+
+
+def search(request):
+    searchTerm = request.GET.get('q')
+
+    if not searchTerm:
+        raise Http404()
+
+    return render(request, 'recipes/pages/search.html')

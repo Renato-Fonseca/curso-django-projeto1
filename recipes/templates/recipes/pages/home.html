@@ -16,24 +16,4 @@
 
 </div>
 
-
-<a example href="/">um link</a>
-
-
-<script>
-    let item = document.querySelector('[example]')
-    item.onmousemove = (event) => {
-        let item = event.target
-        item.style.cursor = 'move'
-        item.style.position = 'absolute'
-        item.style.top = `${0}px`
-        item.style.left = `${0}px`
-        if (event.buttons) {
-            item.style.backgroundColor = 'green'
-            item.style.top = `${event.clientY - (item.clientHeight / 2)}px`
-            item.style.left = `${event.clientX - (item.clientWidth / 2)}px`
-        }
-    }
-</script>
-
 {% endblock content %}

@@ -296,7 +296,109 @@ em JavaScript e também  o this em JavaScript
 
 30/07: começei a aula "292. Trabalhando c/ Eventos #04" em JavaScript.
 
-REPELENTE TÁ FÁCIL!
+01/08: continuei nas aulas "83. Criando uma classe de base para os testes" e "84. Extraindo métodos para reutilização na classe de base dos" em Django.
+
+02/08: continuei na aula "292. Trabalhando c/ Eventos #04" em JavaScript.
+
+03/08: continuei na aula "84. Extraindo métodos para reutilização na classe de base dos testes" em Django.
+
+05/08: terminei a aula "292. Trabalhando c/ Eventos #04" e começei a aula "294. Flappy Bird #01" em JavaScript. continuei na aula "84. Extraindo métodos para reutilização na classe de base dos testes" em Django.
+
+07/08: continuei na aula "294. Flappy Bird #01" em JavaScript.
+
+08/08: terminei as aulas "84. Extraindo métodos para reutilização na classe de base dos testes" e "85. Falhar testes propositalmente com self.fail ou pular com @skip" em Django.
+
+11/08: terminei a aula "294. Flappy Bird #01" em JavaScript.
+
+12/08: começei a tentativa de fazer o projeto flap bird sozinho em JavaScript. fiz o "Simulado 1: Sobre testes e algumas partes do Django", mas acertei apenas 3 de 7 questões em Django
+
+15/08: começei a aula "295. Flappy Bird #02" em JavaScript.
+
+16/08: terminei a aula "86. Testando se category e detail carregam a receita correta" em Django. 
+
+21/08: continuei na aula "295. Flappy Bird #02" em JavaScript.
+
+23/08: terminei a aula "87. Testando o branch (caminho) "is_published" True e False", mas estou fazendo meu próprio exemplo dela no template da category, continuar aula que vêm. Tudo no Django.
+
+24/08: quase finalisei a aula "295. Flappy Bird #02" em JavaScript. 
+
+25/08: continuei no meu exemplo, consertei certos erros mas ainda não está dando certo, continuar aula que vêm. Seção de estudos do Django.
+
+03/09: terminei a aula "295. Flappy Bird #02" em JavaScript.
+
+04/09: estou quase resolvendo o problema do meu exemplo(na parte do author já encontrei a solução), isso em Django. entendi a parte teórica da aula "296. Flappy Bird #03" em JavaScript.
+
+07/09: terminei a aula "87. Testando o branch (caminho) "is_published" True e False" em Django.
+
+08/09: progredi na aula "296. Flappy Bird #03" em JavaScript.
+
+09/09: terminei a aula "88. Testando is_published em category e recipe", e a parte teórica da "90. Preparando para testar os Models"(na 90 não fiz a parte prática, mas 90% da aula é teoria, a parte prática você pode pegar rápido) em Django.
+
+11/09: progredi na aula "296. Flappy Bird #03" em JavaScript.
+
+12/09: finalisei a aula "296. Flappy Bird #03" em JavaScript.(próximo estudo tem que ser Django sem falta).
+
+13/09: terminei a aula "90. Preparando para testar os Models", e iniciei a aula "91. Testando max_length do model usando self.assertRaises" em Django.
+
+15/09: terminei a aula "297. Flappy Bird #04" em JavaScript.
+
+16/09: terminei a aula "91. Testando max_length do model usando self.assertRaises" e iniciei a "92. Criando testes parametrizados com parameterized" em Django.
+
+18/09: fiz a parte teórica da aula "298. Flappy Bird #05" em JavaScript.
+
+20/09: continuei na aula "298. Flappy Bird #05" em JavaScript.
+
+21/09: continuei na aula "92. Criando testes parametrizados com parameterized" em Django.
+
+23/09: resolvi o problema do sortHeight do projeto Flappy Bird no JavaScript.
+
+26/09: fiz a parte teórica da aula "92-criando testes parametrizados com parameterized" em Django.
+
+27/09: terminei a aula "298. Flappy Bird #05" em JavaScript.
+
+28/09: terminei a aula "92-criando testes parametrizados com parameterized" em Django.
+
+29/09: fiz boa parte da aula "299. Flappy Bird #06" em JavaScript.
+
+30/09: terminei a aula "93. Testando valores default dentro do model (devo testar isso?)" em Django.
+
+03/10: continuei tentando resolver o problema que tive na aula "299. Flappy Bird #06" em JavaScript.
+
+04/10: consegui realizar um exemplo extra de parameterized em Django. Rumo à aula 94 e ao término da seção de testes!
+
+05/10: FINALISEI O FLAPPY BIRD(terminei a aula "299. Flappy Bird #06" em JavaScript.)
+
+07/10: FINALISEI A SEÇÃO DE TESTES(terminei as aulas "94. Adicionando coverage (cobertura de testes)", "95. Testando a string representation da Recipe", "96. Testando o model Category" em Django).
+
+09/10: dei uma breve revisada na seção de Integração de HTML, CSS, e JavaScript, e também iniciei a aula "301. O que é Ajax?" em JavaScript.
+
+11/10: terminei as aulas "97. Duplicando receitas usando python manage.py shell" e "98. Corrigindo campo slug (SlugField) para unique (campo de valor único)", e começei(por enquanto quase terminei a teoria inteira) a aula "99. Criando uma nova URL para search com TDD (Test Driven Development)".
+
+13/10: terminei a aula "302. Implementando server.js" em JavaScript.
+
+21/10: terminei a aula "99. Criando uma nova URL para search com TDD (Test Driven Development)"
+
+22/10: fiz boa parte da aula "303. XMLHttpRequest #01" em JavaScript.
+
+28/10: terminei a aula "100. Criando a search view function com TDD (Test Driven Development)" e a parte teórica da aula "101. Indicando para a view retornar o template correto com TDD" em Django.
+
+01/11: terminei meu código na aula "303. XMLHttpRequest #01", mas não deu certo. Isso em JavaScript. Terminei a aula "101. Indicando para a view retornar o template correto com TDD" em Django.
+
+03/11: problema da aula "303. XMLHttpRequest #01" resolvido e aula finalizada. Fiz boa parte da aula "304. XMLHttpRequest #02" em JavaScript.
+
+04/11: terminei as aulas "102. Sobre o padrão MTV (Model Template View) do Django (Teoria)" e "103. Levantando erro 404 se o termo de busca não for enviado" em Django. 
+
+07/11: terminei a aula "304. XMLHttpRequest #02" e iniciei a aula "305. XMLHttpRequest #03" em JavaScript.
+
+
+
+fala mais, fala mais, ele vai lá e faiz
+
+
+É HORA DE VOLTAR AO HTML! TANTO O MÓDULO 4 DO CURSO DO GUANABARA QUANTO FLEX BOX E GRID LAYOUT
+
+
+EM JAVASCRIPT, REVISAR SEÇÃO DE DOM DEPOIS DE TERMINA-LA(revisar rapidamente).
 
 
 Abao em Tóquio
@@ -332,6 +434,7 @@ REVISAR OS CONTEÚDOS EM DJANGO TAMBÉM, NÃO APENAS EM JAVASCRIPT, SE NÃO VOC�
 DEPOIS QUE ACABAR A SEÇÃO DE NODE, FAZER O PROJETO DE HTML E CSS COM JAVASCRIPT DA SEÇÃO QUE INTEGRA AS 3 TECNOLOGIAS, E DAÍ SIM AVANÇAR PRA AJAX
 
 EM DJANGO, FAZER O PROJETO RECIPES DANDO "CTRL+C" E "CTRL+V", DAÍ QUANDO ACABAR FAZER O MÓDULO 4 DO CURSO DE HMTL E TAMBÉM APRENDER FLEXBOX E GRID LAYOUT NA SEÇÃO DE CSS DO CURSO DE JAVASCRIPT, E ENTÃO VOLTAR E FAZER O PROJETO RECIPES DO ZERO E SOZINHO, FAZENDO O HTML E TUDO!
+
 
 
 
