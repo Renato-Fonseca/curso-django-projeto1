@@ -390,6 +390,17 @@ em JavaScript e também  o this em JavaScript
 
 07/11: terminei a aula "304. XMLHttpRequest #02" e iniciei a aula "305. XMLHttpRequest #03" em JavaScript.
 
+09/11: terminei as aulas "104. Seus teste vão prevenir regressões no seu código (temos erro" e "105. Segurança: Cross-site scripting (XSS)" em Django.
+
+10/11: continuei na aula "305. XMLHttpRequest #03" em JavaScript.
+
+13/11: terminei as aulas "106. Remova aspas que sobram no código", "107. Teste para garantir que search_term será escapado por", "108. Separando os testes de todas as views em grupos separados (Test", e "109. Filtro de campo contains e icontains e consultas complexas com". Também dei inicio à aula "110. Usando Q para mesclar AND e OR com consultas complexas e filtros já" em Django.
+
+14/11: terminei as aulas "305. XMLHttpRequest #03" e estou quase finalizando a aula "306. Fetch API #01" em JavaScript.
+
+15/11: terminei a aula "110. Usando Q para mesclar AND e OR com consultas complexas e filtros já", o exercício "Exercício de programação 1: Complete o código", e o teste "Teste 13: Sobre request, models, views, testes e mais" em Django.
+
+19/11: continuei na aula "307. Fetch API #02" em JavaScript.
 
 
 fala mais, fala mais, ele vai lá e faiz

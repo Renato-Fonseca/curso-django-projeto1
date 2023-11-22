@@ -1,13 +1,12 @@
 from django.test import TestCase
 from django.urls import resolve, reverse
+from .test_recipe_base import TestBase
 
 from recipes import views
 
 
-class Tests2(TestCase):
-    def test_recipe_home_view_function_is_correct(self):
-        v = resolve(reverse('recipes:home'))
-        self.assertIs(v.func, views.home)
+class Tests2(TestBase):
+    
 
     def test_recipe_category_view_function_is_correct(self):
         v = resolve(reverse('recipes:category', kwargs={ 'category_id': 1 }))
@@ -29,3 +28,9 @@ class Tests2(TestCase):
         url = reverse('recipes:search')
         response = self.client.get(url)
         self.assertEqual(response.status_code, 404)
+
+    def test_recipe_search_term_is_on_page_title_and_escaped(self):
+        url = reverse('recipes:search') + '?q=<teste>'
+        response = self.client.get(url)
+
+        self.assertIn('<title>search for &quot;&lt;teste&gt;&quot; | Recipes</title>', response.content.decode('utf-8'))

@@ -5,6 +5,8 @@ from utils.recipes.factory import make_recipe
 
 from .models import Category, Recipe
 
+from django.db.models import Q
+
 
 def home(request):
     recipes = Recipe.objects.all().order_by("-id").filter(is_published=True)
@@ -46,9 +48,20 @@ def category(request, category_id):
 
 
 def search(request):
-    searchTerm = request.GET.get('q')
+    searchTerm = request.GET.get('q', '').strip()
 
     if not searchTerm:
         raise Http404()
 
-    return render(request, 'recipes/pages/search.html')
+    recipes = Recipe.objects.all().filter(
+        Q(
+            Q(title__icontains=searchTerm) | Q(description__icontains=searchTerm)
+        ),
+        is_published=True
+        ).order_by('-id')
+    
+
+    return render(request, 'recipes/pages/search.html', context={
+        'page_name': f'search for "{searchTerm}" | Recipes',
+        'recipes': recipes
+    })

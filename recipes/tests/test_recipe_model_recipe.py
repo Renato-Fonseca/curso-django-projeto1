@@ -34,7 +34,7 @@ class RecipeModelTest(TestBase):
             author=self.make_author(),
             title='titúlo',
             description='Descrição',
-            slug='slug',
+            slug='slug-for-no-defaults',
             preparation_time=12,
             preparation_time_unit='minutos',
             servings=8,
@@ -58,6 +58,5 @@ class RecipeModelTest(TestBase):
         self.recipe.full_clean()
         self.recipe.save()
 
-        self.assertEqual(str(self.recipe), needed,
-                         msg=f"needed {needed}, but {str(self.recipe)} was received")
+        self.assertEqual(str(self.recipe), needed, msg=f"needed {needed}, but {str(self.recipe)} was received")
         
